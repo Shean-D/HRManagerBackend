@@ -1,4 +1,4 @@
-package edu.icet.HRM_Backend;
+package edu.icet.hrm_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

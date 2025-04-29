@@ -1,4 +1,4 @@
-package edu.icet.HRM_Backend.model;
+package edu.icet.hrm_backend.model;
 
 import lombok.*;
 
