@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-public class Employee {
+public class EmployeeDTO {
     private Long id;
 
     @NotBlank(message = "Name is required")
