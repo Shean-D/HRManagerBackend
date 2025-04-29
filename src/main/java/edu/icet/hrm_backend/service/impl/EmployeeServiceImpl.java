@@ -3,6 +3,7 @@ package edu.icet.hrm_backend.service.impl;
 import edu.icet.hrm_backend.entity.EmployeeEntity;
 import edu.icet.hrm_backend.model.EmployeeDTO;
 import edu.icet.hrm_backend.repository.EmploiyeeRepository;
+import edu.icet.hrm_backend.service.EmployeeService;
 import edu.icet.hrm_backend.util.EmployeeMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -11,7 +12,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class EmployeeServiceImpl {
+public class EmployeeServiceImpl implements EmployeeService {
 
     final EmploiyeeRepository repository;
 
